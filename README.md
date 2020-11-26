@@ -21,6 +21,9 @@ An **API** `(which provides the list of upcoming technical conferences)` tweaker
 - ## **Task1** ✔️
 - ## **Task2** ✔️
 - ## **Task3** ✓✓....
-        Task 3 is partly completed. Semantic duplicates are extracted with complete accuracy when implemented in NLP which is out of scope for this task. Therefore, python library fuzzywuzzy is used here for getting better results.
+        Task 3 is partly completed. Semantic duplicates are extracted
+        with complete accuracy when implemented in NLP which is out of scope
+        for this task. Therefore, python library fuzzywuzzy is
+        used here for getting better results.
   - `fuzzywuzzy` has 4 types, `FuzzyWuzzyRatio` `FuzzyWuzzy PartialRatio` `FuzzyWuzzyTokenSortRatio` and `FuzzyWuzzyWRatio`.
   - Among these four, `FuzzyWuzzyRatio` produces descent result for this particular _api_ with **ratio>=71**.
